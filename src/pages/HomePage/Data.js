@@ -12,7 +12,7 @@ export const homeObjOne = {
   headline: "Dylan Rotich",
   lightText: true,
   topLine: "Full-Stack Web Developer",
-  img: require("../../images/developer.svg").default,
+  img: require("../../images/profile.png").default,
   alt: "Image",
   start: "",
 };
@@ -31,7 +31,13 @@ export const homeObjTwo = {
   headline: "About Me",
   lightText: false,
   topLine: "Dylan Rotich",
-  img: require("../../images/profile.png").default,
+  img: require("../../images/developer.svg").default,
   alt: "Image",
   start: "",
 };
+
+export const projectsObj = {
+  id: "projects",
+  lightBg: false
+};
+

@@ -8,13 +8,13 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavItemBtn,
-  NavBtnLink
+  //NavItemBtn,
+  //NavBtnLink
 } from "./Navbar.elements";
 import { Link } from "react-router-dom";
 import { MdClose, MdMenu } from "react-icons/md";
 import { IconContext } from "react-icons/lib";
-import { Button } from "../../globalStyles";
+//import { Button } from "../../globalStyles";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -60,7 +60,7 @@ const Navbar = () => {
               <NavItem>
                 <NavLinks smooth to="#contact">Contact</NavLinks>
               </NavItem>
-              <NavItemBtn>
+              {/* <NavItemBtn>
                 {button ? (
                   <NavBtnLink to="/sign-up">
                     <Button primary>SIGN UP</Button>
@@ -72,7 +72,7 @@ const Navbar = () => {
                     </Button>
                   </NavBtnLink>
                 )}
-              </NavItemBtn>
+              </NavItemBtn> */}
             </NavMenu>
           </NavbarContainer>
         </Nav>
