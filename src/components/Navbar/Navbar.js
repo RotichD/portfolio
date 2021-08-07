@@ -49,16 +49,16 @@ const Navbar = () => {
             </MenuIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to="/">Home</NavLinks>
+                <NavLinks smooth to="#home">Home</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/aboutme">About Me</NavLinks>
+                <NavLinks smooth to="#aboutme">About Me</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/projects">Projects</NavLinks>
+                <NavLinks smooth to="#projects">Projects</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/contact">Contact</NavLinks>
+                <NavLinks smooth to="#contact">Contact</NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (

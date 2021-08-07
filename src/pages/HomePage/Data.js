@@ -1,4 +1,5 @@
 export const homeObjOne = {
+  id: "home",
   lightBg: false,
   primary: true,
   imgStart: "",
@@ -17,14 +18,14 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: 'aboutme',
+  id: "aboutme",
   lightBg: true,
   primary: false,
   imgStart: "start",
   lightTopLine: false,
   lightTextDesc: false,
-  buttonLabel: "Projects",
-  link: "/projects",
+  buttonLabel: "View My Projects",
+  link: "#projects",
   description:
     "Full-Stack Web Developer incorporating experience in project contribution rooted in archival research from a History background. Quick learner, who earned a certificate in Full-Stack Development from the UC Berkeley Extension, with skills in Responsive Web Design and creating RESTful APIs utilizing the MERN stack.",
   headline: "About Me",

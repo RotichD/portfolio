@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {
   InfoSec,
   InfoRow,
@@ -12,6 +11,7 @@ import {
   Img,
 } from "./InfoSection.elements";
 import { Container, Button } from "../../globalStyles";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const InfoSection = ({
   lightBg,
@@ -40,7 +40,7 @@ const InfoSection = ({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to={link}>
+                <Link smooth to={link}>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
