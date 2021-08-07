@@ -12,7 +12,7 @@ import {
   NavBtnLink
 } from "./Navbar.elements";
 import { Link } from "react-router-dom";
-import { FaTimes, FaBars } from "react-icons/fa";
+import { MdClose, MdMenu } from "react-icons/md";
 import { IconContext } from "react-icons/lib";
 import { Button } from "../../globalStyles";
 
@@ -45,7 +45,7 @@ const Navbar = () => {
               Dylan Rotich
             </NavLogo>
             <MenuIcon onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
+              {click ? <MdClose /> : <MdMenu />}
             </MenuIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>

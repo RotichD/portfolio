@@ -3,8 +3,9 @@ import { Container } from "../../globalStyles";
 import { FaLaptopCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+
 export const Nav = styled.nav`
-  background: #2b2d42;
+  background: #101522;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -30,6 +31,8 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
+  font-weight: 500;
+  font-style: italic;
 `;
 
 export const NavIcon = styled(FaLaptopCode)`
@@ -66,7 +69,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #2B2D42;
+    background: #101522;
   }
 `;
 
