@@ -1,0 +1,21 @@
+[{
+    "title": "Travel Tunes",
+    "description": "Front-End project that utilizes two APIs to present user with weather results for specified location along with a random gif and currated song to match the weather.",
+    "imgPath": "./images/traveltunes.png",
+    "repoLink": "https://github.com/RotichD/travel-music",
+    "siteLink": "https://rotichd.github.io/travel-music/"
+},
+{
+    "title": "Watchlist",
+    "description": "Full-Stack team project utilizing MySQL and user authentication via bcrypt to allow users to save show and movie data to their accounts",
+    "imgPath": "./images/watchlist.png",
+    "repoLink": "https://github.com/smithfamily42/watchlist",
+    "siteLink": "https://teamwatchlist.herokuapp.com/"
+},
+{
+    "title": "Social-Network API",
+    "description": "Back-End project utizling MongoDB and Mongoose. This project is not deployed. View route functionality demo by clicking 'LIVE SITE.'",
+    "imgPath": "./images/socialnetworkapi.png",
+    "repoLink": "https://github.com/RotichD/social-network-api",
+    "siteLink": "https://www.youtube.com/watch?v=6LgdZQ4D5Fs"
+}]
