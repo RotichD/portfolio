@@ -4,8 +4,9 @@ import { FaLaptopCode } from "react-icons/fa";
 import { HashLink as Link } from 'react-router-hash-link';
 
 
+
 export const Nav = styled.nav`
-  background: #101522;
+  background: #181925;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -24,7 +25,7 @@ export const NavbarContainer = styled(Container)`
 `;
 
 export const NavLogo = styled(Link)`
-  color: #fff;
+  color: #ffffff;
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
@@ -34,6 +35,12 @@ export const NavLogo = styled(Link)`
   font-weight: 500;
   font-style: italic;
 `;
+
+// export const Logo = styled.img`
+// color: #ffffff;
+// height: 20px;
+// width: 20px;
+// `
 
 export const NavIcon = styled(FaLaptopCode)`
   margin-right: 0.5rem;

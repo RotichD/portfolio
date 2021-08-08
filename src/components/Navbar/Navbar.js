@@ -3,7 +3,7 @@ import {
   Nav,
   NavbarContainer,
   NavLogo,
-  NavIcon,
+  //NavIcon,
   MenuIcon,
   NavMenu,
   NavItem,
@@ -40,9 +40,8 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "#fff " }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo component={Link} to="/">
-              <NavIcon />
-              Dylan Rotich
+            <NavLogo component={Link} smooth to="#">
+              DR
             </NavLogo>
             <MenuIcon onClick={handleClick}>
               {click ? <MdClose /> : <MdMenu />}
@@ -59,6 +58,9 @@ const Navbar = () => {
               </NavItem>
               <NavItem>
                 <NavLinks smooth to="#contact">Contact</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks smooth to="#resume">Resume</NavLinks>
               </NavItem>
               {/* <NavItemBtn>
                 {button ? (

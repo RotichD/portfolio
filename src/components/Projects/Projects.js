@@ -17,7 +17,7 @@ const Project = ({ lightBg, id }) => {
               </Heading>
             </Grid>
           {projectsData.map((card) => (
-            <Grid item xs={12} md={6} lg={4}>
+            <Grid item xs={12} md={4}>
               <IndividualProject
                 title={card.title}
                 description={card.description}

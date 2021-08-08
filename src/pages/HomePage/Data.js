@@ -41,3 +41,37 @@ export const projectsObj = {
   lightBg: false
 };
 
+export const homeObjContact = {
+  id: "contact",
+  lightBg: true,
+  primary: false,
+  imgStart: "",
+  lightTopLine: false,
+  lightTextDesc: false,
+  headline: "Contact Me",
+  lightText: false,
+  topLine: "Social Platforms",
+  img: require("../../images/developer.svg").default,
+  alt: "Image",
+  start: "",
+};
+
+export const homeObjResume = {
+  id: "resume",
+  lightBg: false,
+  primary: true,
+  imgStart: "start",
+  lightTopLine: true,
+  lightTextDesc: true,
+  buttonLabel: "View Full Resume",
+  link: "https://docdro.id/UL8igMh",
+  description:
+    "From the Back-End to the Front-End I utilize the MERN stack to build attactive yet functional web applications. I'm always learning new technologies so click the button below to view an up-to-date copy of my resume.",
+  headline: "Resume",
+  lightText: true,
+  topLine: "",
+  img: require("../../images/profile.png").default,
+  alt: "Image",
+  start: "",
+};
+

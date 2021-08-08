@@ -1,21 +1,51 @@
 import React from 'react';
-import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText } from './Footer.elements';
+import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container';
+import Link from '@material-ui/core/Link';
 
-const Footer = () => {
-    return (
-        <>
-        <FooterContainer>
-            <FooterSubscription>
-                <FooterSubHeading>
-                    Fill this out later
-                </FooterSubHeading>
-                <FooterSubText>
-                    Some more subtext here
-                </FooterSubText>
-            </FooterSubscription>
-        </FooterContainer>
-        </>
-    )
+function Copyright() {
+  return (
+    <Typography variant="body2" color="textSecondary">
+      {'Copyright © '}
+      <Link color="black" href="https://github.com/RotichD/portfolio_v4">
+        Dylan Rotich
+      </Link>{' '}
+      {new Date().getFullYear()}
+      {'.'}
+    </Typography>
+  );
 }
 
-export default Footer
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  main: {
+    marginTop: theme.spacing(8),
+    marginBottom: theme.spacing(2),
+  },
+  footer: {
+    padding: theme.spacing(3, 2),
+    textAlign: "center",
+    marginTop: 'auto',
+    backgroundColor:
+      theme.palette.type === 'light' ? theme.palette.grey[200] : theme.palette.grey[800],
+  },
+}));
+
+export default function StickyFooter() {
+  const classes = useStyles();
+
+  return (
+    <div className={classes.root}>
+      <footer className={classes.footer}>
+        <Container maxWidth="sm">
+          <Typography variant="body1">Dylan Rotich - Full-Stack Web Developer</Typography>
+          <Copyright />
+        </Container>
+      </footer>
+    </div>
+  );
+}
