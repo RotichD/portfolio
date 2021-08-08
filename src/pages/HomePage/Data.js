@@ -51,7 +51,7 @@ export const homeObjContact = {
   headline: "Contact Me",
   lightText: false,
   topLine: "Social Platforms",
-  img: require("../../images/developer.svg").default,
+  img: require("../../images/profile.svg").default,
   alt: "Image",
   start: "",
 };
@@ -64,13 +64,13 @@ export const homeObjResume = {
   lightTopLine: true,
   lightTextDesc: true,
   buttonLabel: "View Full Resume",
-  link: "https://docdro.id/UL8igMh",
+  link: "",
   description:
     "From the Back-End to the Front-End I utilize the MERN stack to build attactive yet functional web applications. I'm always learning new technologies so click the button below to view an up-to-date copy of my resume.",
   headline: "Resume",
   lightText: true,
   topLine: "",
-  img: require("../../images/profile.png").default,
+  img: require("../../images/clickHere.svg").default,
   alt: "Image",
   start: "",
 };

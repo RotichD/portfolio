@@ -6,7 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 
 export const Nav = styled.nav`
-  background: #181925;
+  background: #3F51B5;
   height: 80px;
   display: flex;
   justify-content: center;
