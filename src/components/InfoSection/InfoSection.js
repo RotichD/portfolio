@@ -37,18 +37,18 @@ const InfoSection = ({
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
               <TextWrapper>
-                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                <TopLine lightTopLine={lightTopLine} className="animate__animated animate__fadeInRight animate__delay-1s">{topLine}</TopLine>
+                <Heading lightText={lightText} className="animate__animated animate__fadeInLeft">{headline}</Heading>
+                <Subtitle lightTextDesc={lightTextDesc} className="animate__animated animate__fadeInRight animate__delay-1s" >{description}</Subtitle>
                 <Link smooth to={link}>
-                  <Button big fontBig primary={primary}>
+                  <Button big fontBig primary={primary} className="animate__animated animate__fadeInLeft animate__delay-2s">
                     {buttonLabel}
                   </Button>
                 </Link>
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
-              <ImgWrapper start={start}>
+              <ImgWrapper start={start} className="animate__animated animate__fadeIn animate__slow animate__slower">
                 <Img src={img} alt={alt} />
               </ImgWrapper>
             </InfoColumn>
