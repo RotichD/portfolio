@@ -8,7 +8,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary">
       {'Copyright © '}
-      <Link color="black" href="https://github.com/RotichD/portfolio_v4">
+      <Link  href="https://github.com/RotichD/portfolio_v4">
         Dylan Rotich
       </Link>{' '}
       {new Date().getFullYear()}

@@ -48,6 +48,7 @@ export const homeObjContact = {
   imgStart: "",
   lightTopLine: false,
   lightTextDesc: false,
+  buttonLabel: "Send Message",
   headline: "Contact Me",
   lightText: false,
   topLine: "Social Platforms",
