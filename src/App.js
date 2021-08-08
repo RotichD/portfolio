@@ -1,6 +1,6 @@
 import React from "react";
 import GlobalStyle from "./globalStyles";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar, Footer } from "./components";
 import Home from "./pages/HomePage/Home";
 import { ThemeProvider, createTheme } from "@material-ui/core/styles";
