@@ -1,4 +1,16 @@
 [{
+    "title": "Kiss Anime",
+    "description": "Full-Stack Progressive Web Application allowing users to search for Anime and add it to their watch list + comment/reply to comments and add Friends",
+    "imgPath": "./images/kissanime.png",
+    "repoLink": "https://github.com/theoneandonlyzako/kiss-anime",
+    "siteLink": "https://my-kiss-anime.herokuapp.com/"
+},{
+    "title": "Deep Thoughts",
+    "description": "Front-End project that utilizes two APIs to present user with weather results for specified location along with a random gif and currated song to match the weather.",
+    "imgPath": "./images/deepthoughts.png",
+    "repoLink": "https://github.com/RotichD/deep-thoughts",
+    "siteLink": "https://deepth0ughts.herokuapp.com"
+},{
     "title": "Travel Tunes",
     "description": "Front-End project that utilizes two APIs to present user with weather results for specified location along with a random gif and currated song to match the weather.",
     "imgPath": "./images/traveltunes.png",
