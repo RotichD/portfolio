@@ -36,9 +36,24 @@ export const homeObjTwo = {
   start: "",
 };
 
+export const featuredProjectObj = {
+  id: "featured-project",
+  lightBg: true,
+  lightTopLine: false,
+  lightTextDesc: false,
+  headline: "Featured Project",
+  description: `This Front-End Web application allows users to search songs and create playlists using the Spotify API.
+  While the app is live and public, Spotify API access is limited to 25 spotify accounts (Developer Mode). Some functionality will not work unless I manually add your Spotify Account to the approved users list. Please see Demo Video for demonstration`,
+  topLine: "Playlist Creator for Spotify",
+  imgStart: "",
+  buttonLabel: 'More Info',
+  link: '#projects'
+}
+
 export const projectsObj = {
   id: "projects",
-  lightBg: false
+  lightBg: false,
+  lightText: false,
 };
 
 export const homeObjContact = {
