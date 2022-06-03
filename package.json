@@ -1,6 +1,6 @@
 {
-  "homepage": "http://rotichd.github.io/portfolio_v4",
-  "name": "portfolio_v4",
+  "homepage": "http://rotichd.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
