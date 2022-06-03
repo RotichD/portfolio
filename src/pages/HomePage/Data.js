@@ -1,3 +1,5 @@
+import profilePic from '../../images/profile.png';
+
 export const homeObjOne = {
   id: "home",
   lightBg: false,
@@ -12,8 +14,8 @@ export const homeObjOne = {
   headline: "Dylan Rotich",
   lightText: true,
   topLine: "Full-Stack Web Developer",
-  img: require("../../images/profile.png").default,
-  alt: "Image",
+  img: profilePic,
+  alt: "Image of Dylan Rotich",
   start: "",
 };
 
