@@ -7,7 +7,7 @@ I built this single page portfolio to demonstrate my technical skills to potenti
 - [Credits](#credits)
 - [Features](#features)
 ## Installation
-This website is already live on Github Pages @[Dylan Rotich Developer Portfolio](https://rotichd.github.io/portfolio_v4/). Please note that the # symbols in the url are required due to GH Pages not working well with BrowserRouter. I am using HashRouter as a work around.
+This website is already live on Github Pages @[Dylan Rotich Developer Portfolio](https://rotichd.github.io/portfolio). Please note that the # symbols in the url are required due to GH Pages not working well with BrowserRouter. I am using HashRouter as a work around.
 ## Usage
 Functions as a normal website. Project cards have links to both repositories and live sites. Clicking a project picture will also open that project's live website in a different page. Smooth scrolling with nav links. Nav collapses on mobile. 
 ![Screenshot of Live Website](/src/images/screenshot.png)
@@ -24,5 +24,5 @@ Functions as a normal website. Project cards have links to both repositories and
 - Smooth Scrolling 
 - Mobile Responsive
 ## Links
-[Live Site](https://rotichd.github.io/portfolio_v4/)
-[Repository](https://github.com/RotichD/portfolio_v4)
+[Live Site](https://rotichd.github.io/portfolio)
+[Repository](https://github.com/RotichD/portfolio)
