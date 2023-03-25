@@ -82,7 +82,7 @@ export const homeObjResume = {
   lightTopLine: true,
   lightTextDesc: true,
   buttonLabel: "View Full Resume",
-  link: "https://www.docdroid.net/UL8igMh/resume-dylan-rotich-pdf",
+  link: "https://docdro.id/7wTEpU2",
   description:
     "From the Back-End to the Front-End I utilize the MERN stack to build attactive yet functional web applications. I'm always learning new technologies so click the button below to view an up-to-date copy of my resume.",
   headline: "Resume",
